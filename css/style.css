@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f66483;
+    margin: 150px 150px;
+}
+.but {
+    text-transform: uppercase;
+        border: solid 1px #fff;
+        border-radius: 25px;
+        padding: 6px 20px;
+}
+/* start nav */
+.navbar{
+
+    background-color: #ff6889b4
+}
+.navbar .dropdown i{
+    color: #fff;
+    font-size: 25px;
+}
+.navbar .dropdown .dropdown-menu a{
+    color: #fff;
+    background: #ff6889b4;
+}
+
+
+/* end nav */
+
+/* start header */
+
+header{
+    background-color: #ff6889b4;
+}
+header .header-info {
+    padding: 124px 0px 0px 72px;
+}
+header .header-info h1{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+
+}
+header .header-info p{
+    font-size: 14px;
+    color: #fff;
+    line-height: 24px;
+    margin-top: 13px;
+}
+
+header .header-info .but{
+        background-color: #fff;
+        font-weight: bold;
+        margin-top: 20px;
+        transition: .4s all ease-in-out;
+        font-size: 14px;
+
+}
+header .header-info .but i{
+    margin-left: 5px;
+    font-size: 12px;
+}
+header .header-info .but:hover{
+    background-color: transparent;
+    color: #fff;
+    font-weight: 300;
+}
+/* end header */
+.fresh {
+    background-color: #fff;
+    height: 350px;
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fresh .fresh-info{
+    margin-left: -30px;
+}
+.fresh .fresh-info h2{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.25em;
+    color: #222;
+}
+.fresh .fresh-info p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin-top: 10px;
+}
+.fresh .fresh-info a{
+    color: #222;
+    text-decoration: none;
+    outline: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    transition: ease-in-out .3s all;
+}
+
+.fresh .fresh-info a:hover{
+    color: rgba(161, 68, 99, 0.596);
+}
+/* end fresh */
+
+/* start mountain */
+.Mountain {
+    overflow: hidden;
+}
+.Mountain .Mountain-img{
+    position: relative;
+}
+.Mountain .Mountain-info {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-align: center;
+}
+.Mountain .Mountain-info h2{
+    font-size: 28px;
+    color: #fff;
+}
+.Mountain .Mountain-info p{
+    font-size: 14px;
+    color: #fff;
+    padding: 0px 38px;
+    margin-top: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin-bottom: 25px;
+}
+/* end mountain */
+
+/* start gallery */
+.gallery {
+    width: 100%;
+    height: 750px;
+    overflow: hidden;
+    background-color: #fff;
+ 
+}
+.gallery .single-item .col-lg-8 img {
+    width: 100%;
+    height: 170px;
+}
+/* end gallery */
+
+/* start choose */
+.choose {
+    background: #f9faff;
+    height: 350px;
+}
+.choose .choose-icon i{
+    background: #fff;
+    font-size: 20px;
+    color: #f5204b;
+    font-weight: 600;
+    padding: 15px;
+}
+.choose .choose-dec {
+    padding: 0px 38px;
+}
+.choose .choose-dec h2{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    color: #222222;
+    line-height: 1.25em ;
+}
+.choose .choose-dec p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #777777;
+    line-height: 1.5em;
+}
+/* end choose */
+
+/* start about */
+.about{
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+}
+.about .about-img img{
+    width: 100%;
+}
+.about .dec {
+    padding: 70px
+}
+.about .about-dec h2{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    color: #222222;
+}
+.about .about-dec p{
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+/* end about */
+
+/* start form */
+..Newsletter .form-dec h3{
+    font-size: 24px;
+}
+.Newsletter .form-dec p{
+    color: #fff;
+    margin-top: 1rem;
+    font-weight: 300;
+}
+.Newsletter form{
+     position: relative;
+     margin-top: 30px;
+     padding: 0 180px 0 25px;
+ }
+ .Newsletter input{
+    width: 100%;
+    line-height: 50px;
+    padding: 0 250px 0 25px;
+    border: none;
+    background: #fff;
+    font-weight: 300;
+    border-radius: 25px;
+    color: #000;
+    margin-left: 50px;
+}
+.Newsletter .but{
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+    background: #ff6889b4 ;
+    border: 1px solid #eee;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-right: 130px;
+    margin-bottom: 4px;
+ }
+ .Newsletter .but i{
+     font-size: 10px;
+     margin-left: 5px;
+ }
+ /* end form */
+
+ /* start footer */
+.footer-area{
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/logo/f-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-area .copy-right-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 55px 0px 0px 0px;
+    color: #fff;
+}
+.footer-area .copy-right-text a{
+    color: #222222;
+    cursor: default;
+    text-decoration: none;
+}
+.footer-area .copy-right-text i:hover{
+    color: #000;
+}
+.footer-area .footer-content .footer-social{
+    text-align: center;
+    margin-top: 30px;
+
+}
+.footer-area .footer-content .footer-social a{
+    padding: 0px 10px;
+    color: #fff;
+}
+.footer-area .footer-content .footer-social a:hover{
+    color: #000;
+}
+/* end footer */
+
+
+
